@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Braza — Churrasco na brasa, feito com tempo</title>
+  <meta name="description"
+    content="Braza: churrascaria de cortes nobres grelhados na brasa de carvão. Cardápio, horários e reservas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#inicio-conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="header-inner">
+      <a href="#topo" class="wordmark" aria-label="Braza — início">
+        <svg class="wordmark-mark" width="22" height="26" viewBox="0 0 22 26" fill="none" aria-hidden="true">
+          <path
+            d="M11 0C9 4 5 6.5 5 11.5C5 15.5 7.5 18 11 18C14.5 18 17 15.5 17 11.5C17 9.7 16.2 8.3 15.3 7C15.7 9 15 10.3 13.6 10.3C12.4 10.3 11.8 9.3 11.8 8C11.8 6.2 13 5 13 2.8C13 1.7 12.2 0.6 11 0Z"
+            fill="currentColor" />
+          <ellipse cx="11" cy="22.5" rx="7" ry="2.3" fill="currentColor" opacity="0.35" />
+        </svg>
+        <span>Braza</span>
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-ghost nav-cta" href="#contato">Reservar mesa</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Navegação móvel">
+      <a href="#sobre">Sobre</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#contato">Contato</a>
+      <a href="#contato" class="btn btn-solid">Reservar mesa</a>
+    </nav>
+  </header>
+
+  <main id="inicio-conteudo">
+
+    <section class="hero" id="inicio">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1>A brasa demora. <em>É por isso que vale a pena.</em></h1>
+          <p class="hero-sub">Cortes selecionados, carvão de eucalipto e nenhuma pressa. Na Braza, o fogo faz o trabalho
+            — nós só sabemos a hora certa de parar.</p>
+          <div class="hero-actions">
+            <a href="#cardapio" class="btn btn-solid">Ver cardápio</a>
+            <a href="#contato" class="btn btn-ghost">Reservar mesa</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="ember-glow"></div>
+          <div class="ember-particles">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Carvão de eucalipto</span><span>·</span>
+          <span>Cortes selecionados diariamente</span><span>·</span>
+          <span>Tempero da casa</span><span>·</span>
+          <span>Brasa viva, sem pressa</span><span>·</span>
+          <span>Carvão de eucalipto</span><span>·</span>
+          <span>Cortes selecionados diariamente</span><span>·</span>
+          <span>Tempero da casa</span><span>·</span>
+          <span>Brasa viva, sem pressa</span><span>·</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="about-inner">
+        <div class="about-text">
+          <h2>Comida de brasa é um jeito de esperar.</h2>
+          <p>A Braza nasceu de uma ideia simples: carne boa não se apressa. Cada corte passa horas sobre carvão de
+            eucalipto, em fogo baixo e constante, até o ponto certo — nem antes, nem depois. É um churrasco pensado para
+            quem tem tempo de sentar, conversar e esperar a brasa fazer o que só ela sabe fazer.</p>
+        </div>
+        <ul class="about-facts">
+          <li>
+            <span class="fact-title">Carvão de eucalipto</span>
+            <span class="fact-desc">Queima mais limpa e constante, sem fumaça pesada.</span>
+          </li>
+          <li>
+            <span class="fact-title">Cortes selecionados</span>
+            <span class="fact-desc">Escolhidos peça a peça, direto de produtores parceiros.</span>
+          </li>
+          <li>
+            <span class="fact-title">Tempero da casa</span>
+            <span class="fact-desc">Receita própria, sem pressa e sem atalho.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="menu" id="cardapio">
+      <div class="menu-inner">
+        <div class="menu-head">
+          <h2>Cardápio</h2>
+          <p>Uma seleção da casa — o cardápio completo muda conforme a safra e o corte do dia.</p>
+        </div>
+
+        <div class="menu-tabs" role="tablist" aria-label="Categorias do cardápio">
+          <button class="menu-tab is-active" role="tab" aria-selected="true" data-category="carnes">Carnes
+            Nobres</button>
+          <button class="menu-tab" role="tab" aria-selected="false"
+            data-category="acompanhamentos">Acompanhamentos</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-category="bebidas">Bebidas</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-category="sobremesas">Sobremesas</button>
+        </div>
+
+        <ul class="menu-list" data-category="carnes">
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Picanha na Brasa">
+              <img src="Imagens/Carnes-nobres/picanha.jpeg" alt="Foto: Picanha na Brasa" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Picanha na Brasa</span><span
+                  class="menu-item-price">R$ 89</span></div>
+              <p class="menu-item-desc">Corte nobre grelhado no ponto, finalizado com flor de sal.</p>
+            </div>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Costela de Chão 12h">
+              <img src="Imagens/Carnes-nobres/costela.jpeg" alt="Foto: Costela de Chão 12h" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Costela de Chão 12h</span><span
+                  class="menu-item-price">R$ 96</span></div>
+              <p class="menu-item-desc">Defumada lentamente sobre brasa baixa, até soltar do osso.</p>
+            </div>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Fraldinha Grelhada">
+              <img src="Imagens/Carnes-nobres/fraudinha.jpeg" alt="Foto: Fraldinha Grelhada" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Fraldinha Grelhada</span><span
+                  class="menu-item-price">R$ 74</span></div>
+              <p class="menu-item-desc">Marinada no alecrim e alho assado, corte fino na brasa alta.</p>
+            </div>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Cupim Desfiado">
+              <img src="Imagens/Carnes-nobres/cupim-desfiado.jpeg" alt="Foto: Cupim Desfiado" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Cupim Desfiado</span><span
+                  class="menu-item-price">R$ 82</span></div>
+              <p class="menu-item-desc">Cozido lentamente até desmanchar, servido na tábua.</p>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="menu-list is-hidden" data-category="acompanhamentos">
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Farofa de Banana da Terra">
+              <img src="Imagens/Acompanhamentos/farofa-de-banana.jpeg" alt="Foto: Farofa de Banana da Terra" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Farofa de Banana da Terra</span><span
+                  class="menu-item-price">R$ 18</span></div>
+              <p class="menu-item-desc">Farinha torrada na manteiga com banana caramelizada.</p>
+            </div>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Mandioca na Brasa">
+              <img src="Imagens/Acompanhamentos/mandioca.jpeg" alt="Foto: Mandioca na Brasa" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Mandioca na Brasa</span><span
+                  class="menu-item-price">R$ 22</span></div>
+              <p class="menu-item-desc">Assada inteira na brasa, servida com manteiga de garrafa.</p>
+            </div>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Arroz Carreteiro">
+              <img src="Imagens/Acompanhamentos/arroz-carreteiro.jpeg" alt="Foto: Arroz Carreteiro" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Arroz Carreteiro</span><span
+                  class="menu-item-price">R$ 24</span></div>
+              <p class="menu-item-desc">Arroz soltinho com carne seca desfiada e temperos da casa.</p>
+            </div>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Vinagrete da Casa">
+              <img src="Imagens/Acompanhamentos/vinagrete.jpeg" alt="Foto: Vinagrete da Casa" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Vinagrete da Casa</span><span
+                  class="menu-item-price">R$ 14</span></div>
+              <p class="menu-item-desc">Tomate, cebola roxa e pimentão picados na hora.</p>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="menu-list is-hidden" data-category="bebidas">
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Caipirinha de Cachaça Artesanal">
+              <img src="Imagens/Bebidas/caipirinha.jpeg" alt="Foto: Caipirinha de Cachaça Artesanal" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Caipirinha de Cachaça Artesanal</span><span
+                  class="menu-item-price">R$ 26</span></div>
+              <p class="menu-item-desc">Limão espremido na hora, cachaça de alambique.</p>
+            </div>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Chopp Pilsen 500ml">
+              <img src="Imagens/Bebidas/chopp.jpeg" alt="Foto: Chopp Pilsen 500ml" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Chopp Pilsen 500ml</span><span
+                  class="menu-item-price">R$ 16</span></div>
+              <p class="menu-item-desc">Servido bem gelado, direto do barril.</p>
+            </div>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Suco Natural">
+              <img src="Imagens/Bebidas/sucos.jpeg" alt="Foto: Suco Natural" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Suco Natural</span><span
+                  class="menu-item-price">R$ 14</span></div>
+              <p class="menu-item-desc">Laranja, maracujá ou abacaxi — feito na hora.</p>
+            </div>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Vinho Tinto Seco">
+              <img src="Imagens/Bebidas/vinho-seco.jpeg" alt="Foto: Vinho Tinto Seco" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Vinho Tinto Seco (taça)</span><span
+                  class="menu-item-price">R$ 32</span></div>
+              <p class="menu-item-desc">Seleção da casa, harmoniza com os cortes mais encorpados.</p>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="menu-list is-hidden" data-category="sobremesas">
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Banana na Brasa">
+              <img src="Imagens/Sobremesas/banana.jpeg" alt="Foto: Banana na Brasa" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Banana na Brasa</span><span
+                  class="menu-item-price">R$ 24</span></div>
+              <p class="menu-item-desc">Assada com canela e açúcar, sorvete de creme.</p>
+            </div>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Pudim de Leite Condensado">
+              <img src="Imagens/Sobremesas/pudim.jpeg" alt="Foto: Pudim de Leite Condensado" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Pudim de Leite Condensado</span><span
+                  class="menu-item-price">R$ 18</span></div>
+              <p class="menu-item-desc">Receita de família, calda na medida certa.</p>
+            </div>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-img" aria-label="Ampliar foto: Queijo Coalho Grelhado">
+              <img src="Imagens/Sobremesas/queijo-coalho.jpeg" alt="Foto: Queijo Coalho Grelhado" loading="lazy">
+            </button>
+            <div class="menu-item-content">
+              <div class="menu-item-row"><span class="menu-item-name">Queijo Coalho Grelhado</span><span
+                  class="menu-item-price">R$ 20</span></div>
+              <p class="menu-item-desc">Na brasa, servido com mel e orégano.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <dialog id="menuModal" class="menu-modal" aria-label="Foto ampliada do prato">
+        <div class="menu-modal-bar">
+          <button type="button" class="menu-modal-close" aria-label="Fechar imagem">
+            <img src="close-SVG.svg" alt="">
+          </button>
+        </div>
+        <div class="menu-modal-figure">
+          <img id="menuModalImg" class="menu-modal-img" alt="">
+        </div>
+      </dialog>
+    </section>
+
+    <section class="contact" id="contato">
+      <div class="contact-inner">
+        <div class="contact-info">
+          <h2>Contato &amp; Reservas</h2>
+          <dl>
+            <div class="contact-row">
+              <dt>Endereço</dt>
+              <dd>Rua das Brasas, 245 — Vila Madalena, São Paulo</dd>
+            </div>
+            <div class="contact-row">
+              <dt>Horário</dt>
+              <dd>Terça a domingo, 18h às 23h30<br>Segundas, fechado</dd>
+            </div>
+            <div class="contact-row">
+              <dt>Telefone</dt>
+              <dd><a href="https://wa.me/5511000000000" target="_blank" rel="noopener">(11) 00000-0000 — WhatsApp (número fictício)</a>
+              </dd>
+            </div>
+            <div class="contact-row">
+              <dt>Instagram</dt>
+              <dd><a href="https://instagram.com" target="_blank" rel="noopener">@braza</a></dd>
+            </div>
+          </dl>
+          <div class="map-frame">
+            <iframe title="Mapa — Rua das Brasas, 245, Vila Madalena, São Paulo" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Vila+Madalena,+S%C3%A3o+Paulo+-+SP&output=embed"></iframe>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <h3>Pedir uma reserva</h3>
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" autocomplete="name" required>
+            <span class="field-error" id="err-nome"></span>
+          </div>
+          <div class="field">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(11) 90000-0000" required>
+            <span class="field-error" id="err-telefone"></span>
+          </div>
+          <div class="field">
+            <label for="pessoas">Pessoas</label>
+            <input type="number" id="pessoas" name="pessoas" min="1" max="20" value="2" required>
+            <span class="field-error" id="err-pessoas"></span>
+          </div>
+          <div class="field">
+            <label for="mensagem">Mensagem (opcional)</label>
+            <textarea id="mensagem" name="mensagem" rows="3"
+              placeholder="Data e horário preferidos, restrições alimentares, etc."></textarea>
+          </div>
+          <button type="submit" class="btn btn-solid btn-full">Enviar pedido de reserva</button>
+          <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a href="#topo" class="wordmark wordmark-small" aria-label="Braza — início">
+        <svg class="wordmark-mark" width="16" height="19" viewBox="0 0 22 26" fill="none" aria-hidden="true">
+          <path
+            d="M11 0C9 4 5 6.5 5 11.5C5 15.5 7.5 18 11 18C14.5 18 17 15.5 17 11.5C17 9.7 16.2 8.3 15.3 7C15.7 9 15 10.3 13.6 10.3C12.4 10.3 11.8 9.3 11.8 8C11.8 6.2 13 5 13 2.8C13 1.7 12.2 0.6 11 0Z"
+            fill="currentColor" />
+        </svg>
+        <span>Braza</span>
+      </a>
+      <p>&copy; <span id="year"></span> Braza. Todos os direitos reservados.</p>
+      <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
